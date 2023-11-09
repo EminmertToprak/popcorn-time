@@ -5,3 +5,8 @@
 .Header h1 {
     color: yellowgreen
 }
+
+.Movie-card {
+    margin: 0px;
+    padding: 0px;
+}

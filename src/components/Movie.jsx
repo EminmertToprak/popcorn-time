@@ -1,7 +1,7 @@
 function Movie(props) {
     
     return (
-        <section className="Movie card">
+        <section className="Movie-card">
             <h2>{props.movieDetails.title}</h2>
             {props.movieDetails.imgURL ? <img src={props.movieDetails.imgURL} /> : <img src="https://civilrights.msu.edu/_assets/images/placeholder/placeholder-200x200.jpg"  />}
             <h3>Rating: {props.movieDetails.rating}</h3>
