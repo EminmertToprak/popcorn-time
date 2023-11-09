@@ -1,6 +1,11 @@
+import "../css/Header.css"
+
 function Header() {
     return(
-    <h1>This is the Header</h1>)
-}
+        <header className="Header">
+    <h1>Welcome to Popcorn Time</h1>
+    <hr />
+    </header>
+)}
 
 export default Header;
